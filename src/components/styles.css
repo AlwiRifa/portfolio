@@ -1,0 +1,46 @@
+.swiper {
+    width: 48rem;
+    height: 32rem;
+    padding: 2rem;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 25px;
+    background: black;
+    opacity: 0.2;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: black;
+    width: 16px;
+    height: 8px;
+    opacity: 1;
+    transition-duration: 300ms;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: black;
+  }
+
+  @media (max-width: 720px) {
+    .swiper {
+      margin-top: 4rem;
+      width: 24rem; /* Adjust the width to fit the mobile screen */
+      height: 32rem; /* Allow the height to adjust based on content */
+      padding: 1rem; /* Reduce the padding for smaller screens if desired */
+    }
+  }
